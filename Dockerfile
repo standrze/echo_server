@@ -1,6 +1,6 @@
-FROM mcr.microsoft.com/devcontainers/go:latest
+FROM mcr.microsoft.com/devcontainers/go:1.25
 
 # [Optional] Install additional tools or dependencies here
-# RUN go install some/tool@latest
+RUN go install github.com/air-verse/air@latest
 
 EXPOSE 1323
